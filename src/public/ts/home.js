@@ -25,10 +25,8 @@ buttonSort === null || buttonSort === void 0 ? void 0 : buttonSort.addEventListe
     const numberLoosers = parseInt(cantidadPerdedores);
     if (personas.length < numberLoosers || personas.length == 0) {
         alert("Error, esta apretando algo incorrecto");
-        console.log("Aca1");
     }
     else {
-        console.log("Aca2");
         const info = {
             "selectPlayers": personasSeleccionadas,
             "numberLoosers": numberLoosers

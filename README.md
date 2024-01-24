@@ -13,14 +13,14 @@
 
 ## Demo
 
-Check out the live demo [here](link-to-demo).
+Check out the live demo [here](https://lavate-todo.onrender.com/).
 
 ## Usage
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/lavateTodo.git
+    git clone https://github.com/mateoivanovich22/lavateTodo.git
     ```
 
 2. Navigate to the project directory:
@@ -37,7 +37,7 @@ Check out the live demo [here](link-to-demo).
 ## Usage Notes
 
 - This project is designed for personal use among friends and is not intended for public deployment.
-- For demonstration purposes, you can access the live demo [here](link-to-demo).
+- For demonstration purposes, you can access the live demo [here](https://lavate-todo.onrender.com/).
 - Feel free to customize and extend the functionality as needed for your personal use.
 
 ## Contributing

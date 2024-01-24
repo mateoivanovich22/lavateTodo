@@ -4,11 +4,19 @@ const loosersDiv: HTMLElement | null = document.querySelector(".loosersName");
 
 const loosersString: string | null = localStorage.getItem("loosers");
 
+const buttonHome: HTMLElement | null = document.querySelector(".buttonHome")
+
 let loosers = [];
 
 interface Looser {
     personaId: string;
     img: string;
+}
+
+if(buttonHome){
+    buttonHome?.addEventListener("click", () => {
+        window.location.href = "/";
+    })
 }
 
 if (loosersString) {

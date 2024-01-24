@@ -1,7 +1,13 @@
 "use strict";
 const loosersDiv = document.querySelector(".loosersName");
 const loosersString = localStorage.getItem("loosers");
+const buttonHome = document.querySelector(".buttonHome");
 let loosers = [];
+if (buttonHome) {
+    buttonHome === null || buttonHome === void 0 ? void 0 : buttonHome.addEventListener("click", () => {
+        window.location.href = "/";
+    });
+}
 if (loosersString) {
     loosers = JSON.parse(loosersString);
     if (loosersDiv) {
